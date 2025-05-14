@@ -18,6 +18,6 @@
 
 ---
 
-Made with  by [TANUSH CHANDHRA.V]
+Made  by [TANUSH CHANDHRA.V]
 # To-do-list
 Simple To-Do List using HTML, CSS, and JavaScript
