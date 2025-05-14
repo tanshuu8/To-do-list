@@ -1,0 +1,91 @@
+/* Reset default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #ffe6f0; /* soft pink background */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+.container {
+  background: #fff0f6; /* very light pink box */
+  padding: 25px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.2);
+  width: 100%;
+  max-width: 400px;
+  border: 2px solid #ffb6c1;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #d63384;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ffc0cb;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  background: #fff;
+  transition: border 0.3s;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #ff69b4;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff69b4;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e0559b;
+}
+
+ul#taskList {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+ul#taskList li {
+  background: #ffe0eb;
+  padding: 12px;
+  border: 1px solid #ffb6c1;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #5a084d;
+  font-weight: 500;
+}
+
+ul#taskList li:hover {
+  background-color: #ffd6e8;
+}
+
+ul#taskList li.completed {
+  text-decoration: line-through;
+  color: #a0a0a0;
+  background: #fcd4e5;
+}
