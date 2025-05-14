@@ -10,6 +10,8 @@
 3. Click “Add” to add it to your list
 4. Click a task to mark it complete
 
+   #  PROJECT LINK  file:///C:/todo/index.html  
+
 # Tech Used
 
 - HTML
